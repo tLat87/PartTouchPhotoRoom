@@ -7,7 +7,7 @@ const WelcomeScreen1 = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.container}>
             {/* Logo image, assuming '../assets/img/Logo.png' is correct */}
-            <Image source={require('../assets/img/Logo.png')} style={{borderRadius: 20,marginBottom: -50,marginTop: 50, width: 200,  height: 200, backgroundColor: '#fff'}} resizeMode='stretch' />
+            {/*<Image source={require('../assets/img/Logo.png')} style={{borderRadius: 20,marginBottom: -50,marginTop: 50, width: 200,  height: 200, backgroundColor: '#fff'}} resizeMode='stretch' />*/}
 
             <View style={styles.contentContainer}>
                 <Text style={styles.title}>Take a picture.</Text>
@@ -34,7 +34,7 @@ const WelcomeScreen2 = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.container}>
             {/* Logo image, assuming '../assets/img/Logo.png' is correct */}
-            <Image source={require('../assets/img/Logo.png')} style={{borderRadius: 20,marginBottom: -50,marginTop: 50, width: 200,  height: 200, backgroundColor: '#fff'}} resizeMode='stretch' />
+            {/*<Image source={require('../assets/img/Logo.png')} style={{borderRadius: 20,marginBottom: -50,marginTop: 50, width: 200,  height: 200, backgroundColor: '#fff'}} resizeMode='stretch' />*/}
 
             <View style={styles.contentContainer}>
                 <Text style={styles.title}>Nobody is kidding.</Text>
