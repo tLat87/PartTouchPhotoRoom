@@ -42,7 +42,7 @@ const PermissionsScreen = ({ navigation }) => {
 
             {/* Content Area */}
             <View style={styles.contentArea}>
-                <Text style={styles.permissionTitle}>Camera access:</Text>
+                <Text style={styles.permissionTitle}>Gallery access:</Text>
                 <Text style={styles.permissionDescription}>
                     We do not store or share your photos.{'\n'}All photos remain yours.
                 </Text>

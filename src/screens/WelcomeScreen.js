@@ -10,7 +10,7 @@ const WelcomeScreen1 = ({ navigation }) => {
             {/*<Image source={require('../assets/img/Logo.png')} style={{borderRadius: 20,marginBottom: -50,marginTop: 50, width: 200,  height: 200, backgroundColor: '#fff'}} resizeMode='stretch' />*/}
 
             <View style={styles.contentContainer}>
-                <Text style={styles.title}>Take a picture.</Text>
+                <Text style={styles.title}>Upload photo from gallery.</Text>
                 <Text style={styles.title}>But with a twist.</Text>
                 <Text style={styles.description}>
                     You get a random instruction:
@@ -24,7 +24,7 @@ const WelcomeScreen1 = ({ navigation }) => {
                 style={styles.button}
                 onPress={() => navigation.navigate('WelcomeScreen2')} // Navigate to the next screen
             >
-                <Text style={styles.buttonText}>Selfies? Let's go.</Text>
+                <Text style={styles.buttonText}>Took? Let's go.</Text>
             </TouchableOpacity>
         </SafeAreaView>
     );

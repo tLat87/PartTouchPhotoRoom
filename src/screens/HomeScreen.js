@@ -17,7 +17,7 @@ const HomeScreen = ({ navigation }) => {
                 style={styles.takePhotoButton}
                 onPress={() => navigation.navigate('PhotoScreen')}
             >
-                <Text style={styles.takePhotoButtonText}>Take a photo</Text> {/* Translated text */}
+                <Text style={styles.takePhotoButtonText}>Choose a photo</Text> {/* Translated text */}
             </TouchableOpacity>
 
             {/* Other buttons */}
