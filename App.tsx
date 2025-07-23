@@ -7,7 +7,7 @@ import {persistor, store} from "./src/redux/store";
 import {WelcomeScreen1, WelcomeScreen2} from "./src/screens/WelcomeScreen";
 import PermissionsScreen from "./src/screens/PermissionsScreen";
 import HomeScreen from "./src/screens/HomeScreen";
-import PhotoScreen from "./src/screens/PhotoScreen";
+import PhotoScreen from "./src/screens/PhotoScreen.tsx";
 import SavedPhotosScreen from "./src/screens/SavedPhotosScreen";
 import FullPhotoScreen from "./src/screens/FullPhotoScreen";
 import InformationScreen from "./src/screens/InformationScreen";
